@@ -3,6 +3,6 @@ export default class Suscripciones {
     if (cantidad <= 2) {
       return 299 * cantidad;
     }
-    return 717;
+    return 239 * cantidad;
   }
 }
