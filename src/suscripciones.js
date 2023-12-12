@@ -1,5 +1,8 @@
 export default class Suscripciones {
   calcularMontoPara(cantidad) {
-    return 299 * cantidad;
+    if (cantidad <= 2) {
+      return 299 * cantidad;
+    }
+    return 717;
   }
 }
