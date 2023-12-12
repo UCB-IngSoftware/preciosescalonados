@@ -12,3 +12,5 @@ npm test
 
 Ejecutar pruebas de unidad solo una vez:
 npm run test-once
+
+#solo para verificar si funciona el reporte de cobertura
