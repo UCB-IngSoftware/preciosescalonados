@@ -5,4 +5,9 @@ describe("Suscripciones", () => {
     const suscripciones = new Suscripciones();
     expect(suscripciones.calcularMontoPara(1)).toEqual(299);
   });
+
+  it("calcula el monto de 2 suscripciones", () => {
+    const suscripciones = new Suscripciones();
+    expect(suscripciones.calcularMontoPara(2)).toEqual(598);
+  });
 });
