@@ -1,5 +1,6 @@
 const TARIFA_HASTA_2 = 299;
 const TARIFA_3_10 = 239;
+const TARIFA_11_25 = 219;
 export default class Suscripciones {
   calcularMontoPara(cantidad) {
     if (cantidad <= 2) {
@@ -8,6 +9,6 @@ export default class Suscripciones {
     if (cantidad <= 10) {
       return TARIFA_3_10 * cantidad;
     }
-    return 2409;
+    return TARIFA_11_25 * cantidad;
   }
 }
