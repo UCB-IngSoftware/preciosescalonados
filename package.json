@@ -13,12 +13,19 @@
   },
   "author": "Israel Antezana R.",
   "license": "ISC",
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test-once", 
+      "post-commit": "git push origin HEAD"
+    }
+  },
   "devDependencies": {
     "@babel/core": "^7.21.3",
     "@babel/preset-env": "^7.20.2",
     "babel-jest": "^29.5.0",
     "cypress": "^12.8.1",
     "jest": "^29.5.0",
-    "parcel": "^2.8.3"
+    "parcel": "^2.8.3",
+    "husky": "^7.0.0"
   }
 }
