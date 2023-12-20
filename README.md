@@ -5,7 +5,7 @@ npm install
 #### IMPORTANTE: se tiene configuradas las siguientes acciones pre-post commit con Husky:
 
 Pre-Commit: npm test-once
-Post-commit: git push
+Post-commit: git push origin main
 
 #### Comandos de uso:
 
