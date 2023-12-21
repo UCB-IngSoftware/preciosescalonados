@@ -25,3 +25,4 @@ https://typicode.github.io/husky/getting-started.html
 2.- modificamos el .husky/pre-commit para que ejecute npm run test-once
 3.- anadimos post-comit push con:
 npx husky add .husky/post-commit 'git push'
+fin
