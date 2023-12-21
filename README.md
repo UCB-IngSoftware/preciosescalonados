@@ -18,4 +18,10 @@ npm test
 Ejecutar pruebas de unidad solo una vez:
 npm run test-once
 
-#solo para verificar si funciona el reporte de cobertura
+#### Comandos que se usaron para instalar husky:
+
+https://typicode.github.io/husky/getting-started.html
+1.- npx husky-init && npm install
+2.- modificamos el .husky/pre-commit para que ejecute npm run test-once
+3.- anadimos post-comit push con:
+npx husky add .husky/post-commit 'git push'
